@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Animal",
+    "year": "2023",
+    "lang": "Hindi",
+    "cat": "Bollywood",
+    "poster": "assets/images/animal.jpg",
+    "page": "movies/animal-2023.html"
+  },
+  {
+    "title": "Jawan",
+    "year": "2023",
+    "lang": "Hindi",
+    "cat": "Bollywood",
+    "poster": "assets/images/jawan.jpg",
+    "page": "movies/jawan-2023.html"
+  }
+]

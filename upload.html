@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload New Movie</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <h2>Upload New Movie (Admin Only)</h2>
+  <label>Title: <input type="text" id="title"></label><br>
+  <label>Year: <input type="text" id="year"></label><br>
+  <label>Lang: <input type="text" id="lang"></label><br>
+  <label>Category: <input type="text" id="cat"></label><br>
+  <label>Poster: <input type="text" id="poster"></label><br>
+  <label>Page: <input type="text" id="page"></label><br>
+  <button onclick="generate()">Generate</button>
+  <pre id="output"></pre>
+  <script>
+    function generate() {
+      const m = {
+        title: title.value,
+        year: year.value,
+        lang: lang.value,
+        cat: cat.value,
+        poster: poster.value,
+        page: page.value
+      };
+      output.textContent = JSON.stringify(m, null, 2);
+    }
+  </script>
+</body>
+</html>
